@@ -14,7 +14,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #5D4954;
+    background-color: #423F3E;
     font-family: 'Sarabun', sans-serif;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -26,9 +26,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://www.vincentvangogh.org/images/paintings/the-starry-night-over-the-rhone.jpg');
-    background-size: cover;
-    color: white;
+    background-color: #171010;
 }
 
 #parallax h1 {
@@ -107,7 +105,7 @@ header {
        right: 0px;
        height: 92vh;
        top: 8vh;
-       background-color: #5D4954;
+       background-color: #423F3E;
        display: flex;
        flex-direction: column;
        align-items: center;
@@ -188,17 +186,17 @@ header {
 }
 
 .about-pages div:nth-child(1) {
-    background-color: rgb(56,134,89);
+    background-color: #2B2B2B;
 }
 
 .about-pages div:nth-child(2) {
-    background-image: url(https://wallpaperaccess.com/full/31370.jpg);
-    background-attachment: fixed;
+    background-image: url(bg-sample.png);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .about-pages div:nth-child(3) {
-    background-color: rgb(31,88,107);
+    background-color: #2B2B2B;
 }
 
 footer {
@@ -206,5 +204,5 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+    background-color: #423F3E;
 }
