@@ -1,16 +1,16 @@
-function splitScroll(){
-    const controller = new ScrollMagic.Controller();
+// function splitScroll(){
+//     const controller = new ScrollMagic.Controller();
 
-    new ScrollMagic.Scene({
-        duration: '200%',
-        triggerElement: '.about-title',
-        triggerHook: 0
-    })
-    .setPin('.about-title')
-    // .addIndicators()
-    .addTo(controller);
-}
-splitScroll();
+//     new ScrollMagic.Scene({
+//         duration: '200%',
+//         triggerElement: '.about-title',
+//         triggerHook: 0
+//     })
+//     .setPin('.about-title')
+//     // .addIndicators()
+//     .addTo(controller);
+// }
+// splitScroll();
 
 const navSlide = () => {
     const burger = document.querySelector ('.burger');
