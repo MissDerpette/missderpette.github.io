@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    overflow: hidden;
+
 }
 
 body {
@@ -20,6 +20,10 @@ nav {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
+}
+
+.nav:hover {
+    color: white;
 }
 
 header {
@@ -207,6 +211,21 @@ footer {
     height: 10vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: space-around;
     background-color: #423F3E;
+    color: white;
 }
+.socials {
+    top: 4vh;
+    margin: 10px;
+    padding: 10px;
+    align-self: center;
+ 
+}
+    .social-icons {
+      display: inline-flex;
+      list-style: none;
+      flex-direction: row; 
+    }
+
+
