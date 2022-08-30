@@ -219,13 +219,22 @@ footer {
     top: 4vh;
     margin: 10px;
     padding: 10px;
-    align-self: center;
+    align-items: center;
+    justify-content: center;
  
 }
-    .social-icons {
-      display: inline-flex;
-      list-style: none;
-      flex-direction: row; 
+    .social-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
+        .social-icons {
+              display: inline-flex;
+              list-style: none;
+              flex-direction: row; 
+              justify-content: center;
+              align-items: center;
+              gap: 10px
+         }
 
 
