@@ -31,7 +31,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #171010;
+    background-color: #fff;
+}
+
+.typewrite span {
+    color:#171010;
 }
 
 #parallax h1 {
@@ -53,7 +57,7 @@ header {
 
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #fff}
+    50% { border-color: #171010}
   }
 
 /* .logo {
@@ -170,12 +174,22 @@ header {
     width: 50%;
     height: 50vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 15px;
     position: sticky;
     top: 10rem;
+    padding: 0 6em;
     
+}
+
+.about-title p {
+    margin: 1em 0em;
+    text-align: justify;
+    text-indent: 50px;
+    text-justify: inter-word;
+
 }
 
 .about-pages {
@@ -186,9 +200,12 @@ header {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: white;
+    font-size: 15px;
+    top: 10rem;
+    padding: 0 6em;
 }
 
 .about-pages div> p {
