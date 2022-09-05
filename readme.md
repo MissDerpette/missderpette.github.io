@@ -12,7 +12,11 @@ git push origin main
 To Deploy in: missderpette.github.io
 
 ```bash
-git remote add deploy git@github.com:MissDerpette/missderpette.github.io.git
+# check "git remote -v"
+# if REMOTE deploy is not yet there 
+git remote add deploy git@github.com:MissDerpette/missderpette.github.io.git 
+
+# if REMOTE already added
 git add . 
 git commit -m "Deploying To Website"
 git push deploy main 
