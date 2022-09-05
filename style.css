@@ -21,8 +21,7 @@ nav {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
 }
-
-.nav:hover {
+nav ul li a:hover {
     opacity: 0.7;
 }
 
@@ -74,7 +73,6 @@ header {
     top: 4.20vh;
 }
 
-
 .nav-links li {
     list-style: none;
 
@@ -89,6 +87,11 @@ header {
 
 .burger {
     display: none;
+}
+
+.nav-links li a:hover {
+    opacity: 0.7;
+    color: #423F3Ea;
 }
 
 .burger div {
@@ -127,6 +130,7 @@ header {
 
     .nav-links li {
         opacity: 0;
+        list-style: none;
     }
 
     .burger {
