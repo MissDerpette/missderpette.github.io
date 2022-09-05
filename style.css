@@ -192,6 +192,91 @@ header {
 
 }
 
+.container {
+    padding-top: 36px;
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  .image {
+    margin: 24px 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  /* .overlay {
+    margin: 24px 0;
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    /* color: #f1f1f1; 
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    
+  } */
+  .container {
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: 92px;
+    justify-content: space-around;
+  
+  }
+
+  .card0 {
+    margin: 24px 0;
+    background: url("AI-Kers.jpeg") center center no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: auto;
+    background-color: #121212;
+    background-size: 300px;
+    border-radius: 24px;
+  }
+
+  .card0:hover {
+    background: url("AI-Kers.jpeg") left center no-repeat;
+    background-size: auto;
+    background-size: 600px;
+  }
+  
+  
+  .image-card .border {
+    height: 290px;
+    width: 290px;
+    background: rgba(0,0,0,0);
+    border-radius: 24px;
+    transition: border 1s;
+    position: relative;
+    border: 1px solid #dee2e6 !important;
+  }
+* {
+    transition: 1s;
+}
+  
+  .image-card h3 {
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    font-weight: 700;
+    font-size: 2em;
+  }
+
+  .card0:hover h3 {
+    opacity: 1;
+    text-shadow: 0px 0px 6px rgba(0,0,0,.7);
+  }
+
 .about-pages {
     width: 50%;
 }
