@@ -324,11 +324,28 @@ header {
     align-items: center;
     justify-content: center;
     /* list-style-type: none; */
-    
-    
 }
 
+.loader {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    animation: smokeOut 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 1px white;
+  }
 
+  .loader:before {
+    content: "Coming soon!";
+  }
+
+  @keyframes smokeOut {
+    100% {
+      opacity: 0.08;
+      filter: blur(5px);
+      letter-spacing: 4px;
+    }
+  } 
 
 footer {
     height: 10vh;
@@ -360,17 +377,6 @@ footer {
               gap: 10px
         }
               
-/* .socials ul li {
-
-}
-
-
-.socials ul li a {
-
-} */
-
-
-
 .socials ul li a i {
     font-size: 30px;
     width: 30px;
