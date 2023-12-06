@@ -111,7 +111,7 @@ header {
 
 @media screen and (max-width: 768px) {
     body {
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     .nav-links {
@@ -197,10 +197,15 @@ header {
 }
 
 .container {
-    padding-top: 36px;
+    /* padding-top: 36px;
     position: relative;
     width: 50%;
-    max-width: 300px;
+    max-width: 300px; */
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: 0; /* Adjusted margin-top */
+    justify-content: space-around;
   }
   
   .image {
@@ -319,8 +324,8 @@ header {
 
 #skills h3 {
     padding: 8px;
-    font-size: 16px;
-    /* text-decoration: underline; */
+    /* font-size: 16px; */
+    font-size: 18px;
 }
 
 #skills li {
@@ -331,7 +336,8 @@ header {
 }
 
 .loader {
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 2px;
     color: #fff;
@@ -388,7 +394,8 @@ footer {
         }
               
 .socials ul li a i {
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 24px;
     width: 30px;
     text-align: center;
     text-decoration: none;
