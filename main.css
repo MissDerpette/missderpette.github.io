@@ -755,8 +755,11 @@ section.projects {
     align-items: center;
     height: 70vh;
     margin: 0;
+    box-sizing: border-box;
+
 }
 .projects h2 {
+    margin-top: 100px ;
     padding-bottom: 20px;
 }
 .projects p {
@@ -810,9 +813,27 @@ section.projects {
     .card {
         width: calc(50% - 20px);
     }
+
+    section.projects {
+        height: 100vh;
+        padding: 200px 0;
+        margin: 120px 0;
+    }
+    body {
+        background-color: #e0e5ec; /* Light grey background */
+    }
+    .projects h2 {
+        margin-top: 60px ;
+        padding-bottom: 20px;
+    }
+
 }
 
 @media (max-width: 576px) {
+    section.projects {
+        height: 100vh;
+        margin: 500px 0;
+    }
     .card {
         width: 100%;
     }
@@ -825,8 +846,6 @@ section.projects {
     /* box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff; */
     padding: 40px;
     text-align: center;
-    /* margin-top: 50px; */
-    margin-bottom: 60px;
 }
 
 .contact-me h2 {
